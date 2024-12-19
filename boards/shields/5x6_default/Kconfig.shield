@@ -1,0 +1,5 @@
+config 5X6_DEFAULT_LEFT
+    def_bool $(shields_list_contains,5x6_default_left)
+
+config 5X6_DEFAULT_RIGHT
+    def_bool $(shields_list_contains,5x6_default_right)
