@@ -1,4 +1,4 @@
-if 5X6_DEFAULT_LEFT
+if DACTYL_MANUFORM_LEFT
 
 # Name must be less than 16 characters long!
 config ZMK_KEYBOARD_NAME
@@ -9,7 +9,7 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
-if 5X6_DEFAULT_LEFT || 5X6_DEFAULT_LEFT_RIGHT
+if DACTYL_MANUFORM_LEFT || DACTYL_MANUFORM_RIGHT
 
 config ZMK_SPLIT
     default y
