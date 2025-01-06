@@ -57,7 +57,7 @@
 &trans &trans &trans &trans &trans &trans           &kp PLUS   &kp DLLR  &kp PRCNT  &kp  CARET  &kp COLON  &trans
 &trans &trans &trans &trans &trans &trans           &kp MINUS  &kp EXCL  &kp AT     &kp HASH    &kp TILDE  &trans
               &trans &trans &trans &trans           &trans     &trans    &trans     &trans
-              &trans &trans &trans &trans           &kp UNDER  &LPAR     &RPAR      &trans
+              &trans &trans &trans &trans           &kp UNDER  &kp LPAR  &kp &RPAR      &trans
             >;
         };
 
