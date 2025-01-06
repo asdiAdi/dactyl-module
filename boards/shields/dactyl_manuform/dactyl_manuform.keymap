@@ -33,7 +33,7 @@
 &kp ESC    &mt LSHIFT A  &mt LCTRL R  &mt LWIN S   &mt LALT T      &kp G                &kp M          &mt RALT N    &mt RWIN E      &mt RCTRL I  &mt RSHIFT O  &kp ESC
 &kp ESC    &kp Z         &kp X        &kp C        &kp D           &kp V                &kp K          &kp H         &kp COMMA       &kp DOT      &kp FSLH      &kp ESC
                          &kp UP       &kp DOWN     &kp N1          &kp N2               &kp N4         &kp N5        &kp LEFT        &kp RIGHT
-                         &kp N3       &lt FUN ESC  &lt NUM SPACE   &lt SYM TAB          &lt MOUSE DEL  &lt NAV BSPC  &lt MEDIA ENTR  &kp N6
+                         &kp N3       &lt FUN ESC  &lt NUM SPACE   &lt SYM TAB          &lt MOUSE DEL  &lt NAV BSPC  &lt MEDIA RET  &kp N6
             >;
         };
 
@@ -43,7 +43,7 @@
 &trans &trans &trans &trans &trans &trans           &trans     &trans  &trans   &trans  &trans  &trans
 &trans &trans &trans &trans &trans &trans           &kp LBKT   &kp N7  &kp N8   &kp N9  &trans  &kp RBKT
 &trans &trans &trans &trans &trans &trans           &kp EQUAL  &kp N4  &kp N5   &kp N6  &trans  &kp SEMI
-&trans &trans &trans &trans &trans &trans           &UNDER     &kp N1  &kp N2   &kp N3  &trans  &kp GRAVE
+&trans &trans &trans &trans &trans &trans           &kp UNDER     &kp N1  &kp N2   &kp N3  &trans  &kp GRAVE
               &trans &trans &trans &trans           &trans     &trans  &trans   &trans
               &none  &none  &trans &none            &kp MINUS  &kp N0  &kp DOT  &trans
 			>;
