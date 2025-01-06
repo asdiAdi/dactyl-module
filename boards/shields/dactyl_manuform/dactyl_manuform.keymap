@@ -64,13 +64,48 @@
         fun_layer {
             display-name = "FUNCTION";
             bindings = <
-&trans &trans &trans &trans &trans &trans           &trans     &trans    &trans     &trans      &trans     &trans
-&trans &trans &trans &trans &trans &trans           &trans     &trans    &trans     &trans      &trans     &trans
-&trans &trans &trans &trans &trans &trans           &trans     &trans    &trans     &trans      &trans     &trans
-&trans &trans &trans &trans &trans &trans           &trans     &trans    &trans     &trans      &trans     &trans
-              &trans &trans &trans &trans           &trans     &trans    &trans     &trans
-              &trans &trans &trans &trans           &trans     &trans    &trans     &trans
+&trans &trans &trans &trans &trans &trans           &trans &trans &trans &trans &trans &trans
+&trans &trans &trans &trans &trans &trans           &trans &trans &trans &trans &trans &trans
+&trans &trans &trans &trans &trans &trans           &trans &trans &trans &trans &trans &trans
+&trans &trans &trans &trans &trans &trans           &trans &trans &trans &trans &trans &trans
+              &trans &trans &trans &trans           &trans &trans &trans &trans
+              &trans &trans &trans &trans           &trans &trans &trans &trans
             >;
         };
-	};
+
+        nav_layer {
+            display-name = "NAVIGATION";
+            bindings = <
+&trans &trans &trans &trans &trans &trans           &trans &trans &trans &trans &trans &trans
+&trans &trans &trans &trans &trans &trans           &trans &trans &trans &trans &trans &trans
+&trans &trans &trans &trans &trans &trans           &trans &trans &trans &trans &trans &trans
+&trans &trans &trans &trans &trans &trans           &trans &trans &trans &trans &trans &trans
+              &trans &trans &trans &trans           &trans &trans &trans &trans
+              &trans &trans &trans &trans           &trans &trans &trans &trans
+            >;
+        };
+
+        media_layer {
+            display-name = "MEDIA";
+            bindings = <
+&trans &trans &trans &trans &trans &trans           &trans &trans &trans &trans &trans &trans
+&trans &trans &trans &trans &trans &trans           &trans &trans &trans &trans &trans &trans
+&trans &trans &trans &trans &trans &trans           &trans &trans &trans &trans &trans &trans
+&trans &trans &trans &trans &trans &trans           &trans &trans &trans &trans &trans &trans
+              &trans &trans &trans &trans           &trans &trans &trans &trans
+              &trans &trans &trans &trans           &trans &trans &trans &trans
+            >;
+        };
+
+        mouse_layer {
+            display-name = "MOUSE";
+            bindings = <
+&trans &trans &trans &trans &trans &trans           &trans &trans &trans &trans &trans &trans
+&trans &trans &trans &trans &trans &trans           &trans &trans &trans &trans &trans &trans
+&trans &trans &trans &trans &trans &trans           &trans &trans &trans &trans &trans &trans
+&trans &trans &trans &trans &trans &trans           &trans &trans &trans &trans &trans &trans
+              &trans &trans &trans &trans           &trans &trans &trans &trans
+              &trans &trans &trans &trans           &trans &trans &trans &trans
+            >;
+        };
 };
