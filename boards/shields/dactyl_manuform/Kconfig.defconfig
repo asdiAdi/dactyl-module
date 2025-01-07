@@ -9,9 +9,5 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
-if DACTYL_MANUFORM_LEFT || DACTYL_MANUFORM_LEFT_RIGHT
-
 config ZMK_SPLIT
     default y
-
-endif
