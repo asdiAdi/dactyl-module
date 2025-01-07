@@ -1,5 +1,8 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/ext_power.h>
+#include <dt-bindings/zmk/outputs.h>
 
 #define BASE 0
 #define NUM 1
@@ -40,7 +43,7 @@
 &kp ESC    &hm LSHIFT A  &hm LCTRL R  &hm LWIN S   &hm LALT T      &kp G                &kp M          &hm RALT N    &hm RWIN E      &hm RCTRL I  &hm RSHIFT O  &kp ESC
 &kp ESC    &kp Z         &kp X        &kp C        &kp D           &kp V                &kp K          &kp H         &kp COMMA       &kp DOT      &kp FSLH      &kp ESC
                          &kp N1       &kp N2       &kp N3          &kp N4               &kp N9         &kp N0        &kp A           &kp B
-                         &kp N5       &kp N6       &kp N7          &kp 8                &kp C          &kp N2        &kp D           &kp E
+                         &kp N5       &kp N6       &kp N7          &kp N8                &kp C          &kp N2        &kp D           &kp E
             >;
         };
 
