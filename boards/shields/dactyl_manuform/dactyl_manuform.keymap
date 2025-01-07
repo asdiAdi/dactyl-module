@@ -2,12 +2,6 @@
 #include <dt-bindings/zmk/keys.h>
 
 #define BASE 0
-#define NUM 1
-#define SYM 2
-#define FUN 3
-#define NAV 4
-#define MEDIA 5
-#define MOUSE 6
 
 &sl {
     release-after-ms = <5000>;
@@ -44,79 +38,8 @@
 &kp ESC    &hm LSHIFT A  &hm LCTRL R  &hm LWIN S   &hm LALT T      &kp G                &kp M          &hm RALT N    &hm RWIN E      &hm RCTRL I  &hm RSHIFT O  &kp ESC
 &kp ESC    &kp Z         &kp X        &kp C        &kp D           &kp V                &kp K          &kp H         &kp COMMA       &kp DOT      &kp FSLH      &kp ESC
                          &kp UP       &kp DOWN     &kp N1          &kp N2               &kp N4         &kp N5        &kp LEFT        &kp RIGHT
-                         &kp N3       &lt FUN ESC  &lt NUM SPACE   &lt SYM TAB          &lt MOUSE DEL  &lt NAV BSPC  &lt MEDIA RET   &kp N6
+ &none  &none  &trans &none   &none  &none  &trans &none
             >;
         };
 
-		num_layer {
-			display-name = "NUMBER";
-			bindings = <
-&trans &trans &trans &trans &trans &trans           &trans     &trans  &trans   &trans  &trans  &trans
-&trans &trans &trans &trans &trans &trans           &kp LBKT   &kp N7  &kp N8   &kp N9  &trans  &kp RBKT
-&trans &trans &trans &trans &trans &trans           &kp EQUAL  &kp N4  &kp N5   &kp N6  &trans  &kp SEMI
-&trans &trans &trans &trans &trans &trans           &kp UNDER  &kp N1  &kp N2   &kp N3  &trans  &kp GRAVE
-              &trans &trans &trans &trans           &trans     &trans  &trans   &trans
-              &none  &none  &trans &none            &kp MINUS  &kp N0  &kp DOT  &trans
-			>;
-		};
-
-        sym_layer {
-            display-name = "SYMBOL";
-            bindings = <
-&trans &trans &trans &trans &trans &trans           &trans     &trans    &trans     &trans      &trans     &trans
-&trans &trans &trans &trans &trans &trans           &kp LBRC   &kp AMPS  &kp STAR   &kp LPAR    &kp RBRC   &trans
-&trans &trans &trans &trans &trans &trans           &kp PLUS   &kp DLLR  &kp PRCNT  &kp CARET   &kp COLON  &trans
-&trans &trans &trans &trans &trans &trans           &kp MINUS  &kp EXCL  &kp AT     &kp HASH    &kp TILDE  &trans
-              &trans &trans &trans &trans           &trans     &trans    &trans     &trans
-              &none  &none  &none  &none            &kp UNDER  &kp LPAR  &kp RPAR   &trans
-            >;
-        };
-
-        fun_layer {
-            display-name = "FUNCTION";
-            bindings = <
-&trans &trans &trans &trans &trans &trans           &trans &trans &trans &trans &trans &trans
-&trans &trans &trans &trans &trans &trans           &trans &trans &trans &trans &trans &trans
-&trans &trans &trans &trans &trans &trans           &trans &trans &trans &trans &trans &trans
-&trans &trans &trans &trans &trans &trans           &trans &trans &trans &trans &trans &trans
-              &trans &trans &trans &trans           &trans &trans &trans &trans
-              &trans &trans &trans &trans           &trans &trans &trans &trans
-            >;
-        };
-
-        nav_layer {
-            display-name = "NAVIGATION";
-            bindings = <
-&trans &trans &trans &trans &trans &trans           &trans &trans &trans &trans &trans &trans
-&trans &trans &trans &trans &trans &trans           &trans &trans &trans &trans &trans &trans
-&trans &trans &trans &trans &trans &trans           &trans &trans &trans &trans &trans &trans
-&trans &trans &trans &trans &trans &trans           &trans &trans &trans &trans &trans &trans
-              &trans &trans &trans &trans           &trans &trans &trans &trans
-              &trans &trans &trans &trans           &trans &trans &trans &trans
-            >;
-        };
-
-        media_layer {
-            display-name = "MEDIA";
-            bindings = <
-&trans &trans &trans &trans &trans &trans           &trans &trans &trans &trans &trans &trans
-&trans &trans &trans &trans &trans &trans           &trans &trans &trans &trans &trans &trans
-&trans &trans &trans &trans &trans &trans           &trans &trans &trans &trans &trans &trans
-&trans &trans &trans &trans &trans &trans           &trans &trans &trans &trans &trans &trans
-              &trans &trans &trans &trans           &trans &trans &trans &trans
-              &trans &trans &trans &trans           &trans &trans &trans &trans
-            >;
-        };
-
-        mouse_layer {
-            display-name = "MOUSE";
-            bindings = <
-&trans &trans &trans &trans &trans &trans           &trans &trans &trans &trans &trans &trans
-&trans &trans &trans &trans &trans &trans           &trans &trans &trans &trans &trans &trans
-&trans &trans &trans &trans &trans &trans           &trans &trans &trans &trans &trans &trans
-&trans &trans &trans &trans &trans &trans           &trans &trans &trans &trans &trans &trans
-              &trans &trans &trans &trans           &trans &trans &trans &trans
-              &trans &trans &trans &trans           &trans &trans &trans &trans
-            >;
-        };
 };
