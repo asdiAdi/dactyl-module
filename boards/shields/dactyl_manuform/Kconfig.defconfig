@@ -1,7 +1,7 @@
 if DACTYL_MANUFORM_LEFT
 # Name must be less than 16 characters long!
 config ZMK_KEYBOARD_NAME
-    default "Test A"
+    default "Test B"
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 config ZMK_SPLIT
